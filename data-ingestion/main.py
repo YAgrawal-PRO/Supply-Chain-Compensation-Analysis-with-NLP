@@ -13,7 +13,7 @@ log.basicConfig(level=log.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 
 
 @ff.cloud_event
-def process_gcs_event(cloud_event: CloudEvent) -> None:
+def data_ingest_process(cloud_event: CloudEvent) -> None:
     """
     The entry point for the Cloud Function, triggered by a GCS event.
 
