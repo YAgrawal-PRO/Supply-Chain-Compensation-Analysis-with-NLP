@@ -1,6 +1,6 @@
 {
-  "bucket": "your-bucket-name",
-  "name": "your-file.txt",
+  "bucket": "gcs-bucket-name",
+  "name": "folder_path/file_name.ext",
   "contentType": "text/plain",
   "metageneration": "1",
   "resourceState": "exists",
