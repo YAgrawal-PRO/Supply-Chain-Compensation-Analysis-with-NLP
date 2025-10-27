@@ -1,0 +1,10 @@
+{
+  "bucket": "your-bucket-name",
+  "name": "your-file.txt",
+  "contentType": "text/plain",
+  "metageneration": "1",
+  "resourceState": "exists",
+  "size": "123",
+  "timeCreated": "2025-10-26T08:00:00.000Z",
+  "updated": "2025-10-26T08:00:00.000Z"
+}

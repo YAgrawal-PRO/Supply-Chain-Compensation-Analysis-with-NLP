@@ -1,0 +1,24 @@
+[project]
+name = "data-ingestion"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "functions-framework>=3.9.2",
+    "google-cloud-storage>=3.4.1",
+]
+
+[tool.pyright]
+# Suppress warnings where Google Cloud libraries are missing built-in type hints.
+reportMissingTypeStubs = false
+
+# Suppress warnings about type members that Pylance can't infer because of 
+# the missing stubs (e.g., bucket.blob() returns "Unknown" type)
+reportUnknownMemberType = "none"
+
+# Exclude virtual environment and cache folders from analysis
+exclude = [
+    "**/venv/**",
+    "**/__pycache__/**"
+]
