@@ -1,0 +1,6 @@
+# Ignore Python cache files
+import sys
+sys.dont_write_
+
+# VS Code settings
+.vscode/
